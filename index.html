@@ -3,21 +3,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"; http-equiv="Content-Language content=de" />
 	<title>Suchformular für Wikipedia</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
 </head>
 
 <body>
 
-	<div>
+	
 	
 		<h1>Suchformular für Wikipedia</h1>
+		
 		<p><strong>Mit diesem Formular können Sie im Internet-Lexikon Wikipedia suchen.</strong> </p>
 		
-	</div>
+
 	
-	<div>
+	
 
 		<p> Geben Sie dazu in das Feld "Suchwort" einen Begriff ein, den Sie im Lexikon nachschlagan möchten.</p>
 		<p> Beim Klicken auf <em> Artikel</em> wird ein Lexikon-Artikel gesucht, der diesen Begriff zum Thema hat.</br>
@@ -26,23 +27,26 @@
 	
 		<form action="http://de.wikipedia.org/wiki/Spezial:Suche" >
 		
-		  <fieldset>
+	 <fieldset id="form"> 
 		  
 		    <legend>Suchformular</legend>
 		    
-		    <label for="search">Suchwort</label>
-		    <input type="text"   name="search" value="" /><br/>
-		    <input type="submit" name="go" value="Artikel"class="button"/>
-		    <input type="submit" name="fulltext" value="Volltext" class="button"/>
-		  </fieldset>
+		    <p>
+		    	<label for="search">Suchwort</label><br/>
+		    	<input type="text"   name="search" value="" />
+	    	</p>
+	    	<p>
+		    	<input type="submit" name="go" value="Artikel"class="button"/>
+		    	<input type="submit" name="fulltext" value="Volltext" class="button"/>
+	    	</p>
+	  </fieldset>
 		  
 		 </form>
-		
-	 </div>
+	
 				
 	<div id="unten">
 		<p>Hausaufgabe Kapitel 7</p>
- 		<p><a href="http://wave.webaim.org/report#/elkeschulze6.cloudcontrolled.com" ><img src="http://www.w3.org/WAI/wcag2AAA.gif" alt="Level Triple-A conformance icon, W3C-WAI Web Content Accessibility Guidelines 2.0"/> </a>Link für die Validierung nach WCAG 2.0 AAA und Section 508</p>				
+ 		<p><a href="http://wave.webaim.org/report#/elkeschulze6.cloudcontrolled.com" ><img src="http://www.w3.org/WAI/wcag2AAA.gif" alt=""/> </a>Link für die Validierung nach WCAG 2.0 AAA und Section 508</p>				
 	
 	
 	</div>
