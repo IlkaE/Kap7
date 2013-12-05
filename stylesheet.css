@@ -21,7 +21,7 @@ p{
 	}
 
 em{
-	color: #c74d1c;
+	color: #991100;
 	font-style: normal
 }
 
@@ -45,15 +45,15 @@ img{
 
 
 .button{
-	color: #c74d1c;
-	border-color: #c74d1c;
+	color: #991100;
+	border-color: #991100;
 	margin-top: 5px;
 	margin-right:10px;
 	}
 	
-#form{
-		border-color: #c74d1c;
-		border-width: 1px;
+form{
+	border-color: #c74d1c;
+	border-width: 1px;
 }
 
 #unten{
